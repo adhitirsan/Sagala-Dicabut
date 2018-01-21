@@ -1,0 +1,22 @@
+body {
+     margin: 0;
+     padding: 0;
+     text-align: center;
+	 background-color:#ff0000;
+}
+p {
+	padding:200px;
+	margin:0px;
+	font-size:50pt;
+	font-family:"Levenim-MT",calibri,sans-serif;
+	text-align:right;
+	color:#fff;
+}
+.bg {
+     width: 35%;
+     height: 100%;
+     position: fixed;
+     z-index: 1;
+     float: left;
+     left: 0;
+}

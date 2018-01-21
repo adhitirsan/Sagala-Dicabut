@@ -1,0 +1,59 @@
+<html>
+<head><title>Sagala Di cabut</title>
+<link rel="stylesheet" href="nav.css" type="text/css">
+<style type="text/css">
+
+.wrapper {
+				width: 700px;
+				
+				margin: 90px auto 0px auto;
+				border: 1px solid #ff4500;
+				background-color: #fffafa;}
+body{background-color:#ffa500;}
+
+</style>
+<script type="text/javascript">
+ function pesan()
+ { 
+	alert("Formulir Anda Telah kami terima, tunggu 1x24 JAM untuk persetujuan dari kami. Saya ucapkan terimakasih atas kepercayaan yang anda berikan terhadap kami");
+ }
+	function fungsi()
+	{
+		alert("Fungsi dari mengisi formulir ini untuk mengetahui pekerjaan apa yang anda berikan untuk kami serta kami bisa menghubungi anda secepat mungkin ");
+	}
+</script>
+</head>
+<body>
+<div class="wrapper">
+<nav>
+
+<ul>
+<li><a href="utama.html">Kembali Pada Halaman Utama</a>
+<li><a href="#" onclick="fungsi()">Apa Fungsi Dari Mengisi Formulir ini</a>
+</ul>
+</nav>
+ 
+<form >
+<table align="center">
+<tr><td><textarea name="post12" cols=80 rows=9 placeholder="Tuliskan Pekerjaan untuk meminta bantuan orang lain......."></textarea>
+<tr><td><input type="text" name="nama" placeholder="Nama">
+<tr><td><input type="text" name="alamat" placeholder="Alamat">
+<tr><td><input type="text" name="rtrw" size="10" placeholder="RT/RW">
+<tr><td><input type="text" name="kelds" size="15" placeholder="Kel/Des">
+<tr><td><input type="text" name="kec" size="20" placeholder="Kecamatan">
+<tr><td><select size=1 name="kota" placeholder="Kota....">
+<option>Bandung</option>
+<option>Jakarta</option>
+<option>Bogor</option>
+</select>
+<tr><td><input type="text" name="email" placeholder="Email">
+<tr><td><input type="text" name="tlpn" placeholder="Telepon">
+<tr><td><input type="text" name="donation" placeholder="Masukan Jumlah Donasi">
+<input type="submit" value="Proses" name="simpan" onclick="pesan()" >
+</table>
+</form>
+</div>
+
+
+</body>
+</html>
